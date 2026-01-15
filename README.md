@@ -1,3 +1,14 @@
+네, **`mom_universe.py`** (LAMP 마스터 확장판)를 깃허브(GitHub)나 포트폴리오에 올리실 때 사용할 수 있는 **전문적인 `README.md**` 문서를 작성해 드립니다.
+
+이 문서는 앱의 **기획 의도(심리학 이론), 주요 기능, 설치 방법, 사용법**을 체계적으로 정리하여 개발자와 사용자 모두가 쉽게 이해할 수 있도록 구성했습니다.
+
+---
+
+### 📄 `README.md` (복사해서 사용하세요)
+
+아래 내용을 복사하여 **`README.md`** 파일을 만들고 붙여넣으시면 됩니다.
+
+```markdown
 # 🕯️ LAMP Master: AI 걱정 지우개 (심리 치유 솔루션)
 
 > **"걱정은 없애는 것이 아니라, 관리하는 것입니다."** > 베스트셀러 <걱정이 많은 사람을 위한 심리학 수업>의 **LAMP 치유법**을 완벽하게 구현한 AI 멘탈 헬스케어 애플리케이션입니다.
@@ -61,3 +72,59 @@
 ```bash
 git clone [https://github.com/your-username/lamp-master.git](https://github.com/your-username/lamp-master.git)
 cd lamp-master
+
+```
+
+**2. 필수 패키지 설치**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+**3. API 키 설정**
+
+* 앱 실행 후 사이드바 설정창에 **Google Gemini API Key**를 입력해야 합니다.
+* (키 발급: [Google AI Studio](https://aistudio.google.com/app/apikey))
+
+**4. 앱 실행**
+
+```bash
+streamlit run mom_universe.py
+
+```
+
+---
+
+## 📂 파일 구조 (File Structure)
+
+```
+📂 lamp-master
+├── mom_universe.py      # 메인 애플리케이션 코드 (통합 버전)
+├── requirements.txt     # 의존성 패키지 목록
+└── README.md            # 프로젝트 설명 문서
+
+```
+
+---
+
+## ⚠️ 면책 조항 (Disclaimer)
+
+* 본 서비스는 심리적 안정을 돕는 **자기 돌봄(Self-care) 도구**이며, 의학적 진단이나 치료를 대체할 수 없습니다.
+* 심각한 우울증이나 불안 장애를 겪고 계신 경우, 반드시 **'SOS 위기 지원'** 탭의 전문가 연락처를 통해 도움을 받으시길 바랍니다.
+
+---
+
+**Developed with 🧡 by [당신의 이름/팀명]**
+
+```
+
+### 📝 적용 가이드
+
+1.  프로젝트 폴더 안에 `README.md`라는 새 파일을 만드세요.
+2.  위의 코드 블록 내용을 **그대로 복사**해서 붙여넣으세요.
+3.  맨 마지막 줄의 **[당신의 이름/팀명]** 부분만 본인 이름으로 수정하시면 됩니다.
+
+이 `README.md`는 앱의 전문성을 보여주고, 심사위원이나 다른 개발자가 프로젝트를 이해하는 데 큰 도움이 될 것입니다!
+
+```
